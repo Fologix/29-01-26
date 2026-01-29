@@ -41,6 +41,8 @@ Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destina
 ### Chatbot (system prompt)
 Chronos = concierge luxe, connaît uniquement Paris 1889 / Crétacé -65M / Florence 1504, propose prix cohérents, conseils pratiques.
 
+http://digiticar.fr/
+
 ## Installation (si applicable)
 ```bash
 npm install
