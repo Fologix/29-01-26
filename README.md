@@ -8,6 +8,8 @@ Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destina
 - GOTTI Florent
 - MACIPE Pablo
 - CHAPOTON André
+- VIALONGA Antoine
+- BOUHIL Julian
 
 ## Stack technique
 - Frontend: React (ou Next.js) + Tailwind CSS
