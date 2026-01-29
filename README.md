@@ -4,13 +4,13 @@ Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destina
 http://digiticar.fr/
 
 ## Membres du groupe
-- VERRIEZ Yassine
-- VIANEZ Titouan
-- GOTTI Florent
-- MACIPE Pablo
-- CHAPOTON André
-- VIALONGA Antoine
-- BOUHIL Julian
+- Yassine V.
+- Titouan V.
+- Florent G.
+- Pablo M.
+- André C.
+- Antoine V.
+- Julian B. 
 
 ## Stack technique
 - Frontend: React (ou Next.js) + Tailwind CSS
