@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TimeTravel Agency — Voyages temporels de luxe</title>
+  <meta name="description" content="Agence fictive premium de voyage temporel : destinations, conseils, réservation." />
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Optionnel : polices externes (ça marche aussi sans) -->
+  <!--
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  -->
+
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ===== NAV ===== -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="TimeTravel Agency">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div>
+          <div class="brand-title">TimeTravel Agency</div>
+          <span class="brand-sub">Luxury Temporal Voyages</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigation">
+        <a href="#about">Agence</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#reservation">Réservation</a>
+      </nav>
+
+      <a class="cta-mini" href="#destinations">
+        <span aria-hidden="true">⟡</span>
+        <span>Explorer</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <main id="top">
+    <section class="hero">
+      <canvas id="starfield" aria-hidden="true"></canvas>
+
+      <div class="hero-inner">
+        <div class="glass hero-card">
+          <div class="kicker"><span class="dot"></span> Agence premium de voyage temporel</div>
+
+          <h1 class="hero-title">
+            Traversez les siècles <span class="gold">avec élégance</span>.
+          </h1>
+
+          <p class="hero-sub">
+            TimeTravel Agency conçoit des expériences historiques sur-mesure :
+            <strong>discrètes</strong>, <strong>sécurisées</strong>, et pensées comme un
+            séjour cinq étoiles… à travers le temps.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#destinations" id="btnDiscover">
+              Découvrir les destinations <span aria-hidden="true">→</span>
+            </a>
+            <button class="btn" id="btnChatOpen">
+              Parler à l’agent <span aria-hidden="true">💬</span>
+            </button>
+          </div>
+
+          <p class="note">Fond animé (canvas) — fluide et léger, parfait pour un VPS.</p>
+        </div>
+
+        <aside class="glass hero-aside">
+          <div class="stat">
+            <div class="icon" aria-hidden="true">⏳</div>
+            <div>
+              <b>Protocoles temporels</b>
+              <span>Guides, fenêtres de présence, retour garanti.</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="icon" aria-hidden="true">🛡️</div>
+            <div>
+              <b>Sécurité premium</b>
+              <span>Encadrement discret + équipements adaptés à l’époque.</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="icon" aria-hidden="true">✦</div>
+            <div>
+              <b>Expérience sur-mesure</b>
+              <span>Culture, art, aventure : votre voyage, vos règles.</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <h2 class="h2">Une agence, un rituel : le voyage d’exception.</h2>
+            <p class="p">
+              Nous ne vendons pas un “ticket temporel”. Nous orchestrons une immersion raffinée :
+              transferts, tenue, itinéraire, accompagnement… et une seule obsession :
+              <strong>vous faire vivre l’Histoire sans en modifier le cours</strong>.
+            </p>
+          </div>
+          <span class="tag">Luxe • Discrétion • Précision</span>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass about-card">
+            <h3 class="card-title">Le concept</h3>
+            <p>
+              Un séjour calibré à la minute, des “fenêtres” de présence limitées,
+              et un encadrement qui vous laisse profiter sans surcharge technique.
+            </p>
+            <ul class="bullet" aria-label="Points clés">
+              <li>Briefing historique express + protocole de sécurité</li>
+              <li>Accès à des zones sélectionnées, au bon moment</li>
+              <li>Option “focus” : art, culture, aventure</li>
+            </ul>
+          </div>
+
+          <div class="glass about-card">
+            <h3 class="card-title">Le niveau premium</h3>
+            <p>
+              Service discret, détails impeccables : transport, tenue, accessoires,
+              et support d’un agent dédié.
+            </p>
+            <ul class="bullet" aria-label="Services premium">
+              <li>Conciergerie temporelle (itineraires, recommandations)</li>
+              <li>Kit d’époque (visuel + confort + conformité)</li>
+              <li>Expérience privée ou petit comité</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DESTINATIONS ===== -->
+    <section id="destinations">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <h2 class="h2">Destinations temporelles</h2>
+            <p class="p">Trois époques iconiques, sélectionnées pour une immersion spectaculaire et maîtrisée.</p>
+          </div>
+          <span class="tag">Cartes interactives</span>
+        </div>
+
+        <div class="cards" role="list">
+          <!-- Card 1 -->
+          <article class="card" role="listitem" data-destination="paris1889">
+            <div class="thumb" style="background-image:
+              linear-gradient(120deg, rgba(214,178,94,0.10), rgba(126,205,255,0.08)),
+              url('data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> <svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;900&quot; height=&quot;520&quot;> <defs> <linearGradient id=&quot;g&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;> <stop offset=&quot;0&quot; stop-color=&quot;%23070A10&quot;/> <stop offset=&quot;1&quot; stop-color=&quot;%2312182B&quot;/> </linearGradient> </defs> <rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23g)&quot;/> <g opacity=&quot;0.75&quot;> <circle cx=&quot;740&quot; cy=&quot;140&quot; r=&quot;110&quot; fill=&quot;%23D6B25E&quot; opacity=&quot;0.16&quot;/> <circle cx=&quot;180&quot; cy=&quot;340&quot; r=&quot;160&quot; fill=&quot;%237ECDFF&quot; opacity=&quot;0.10&quot;/> </g> <g stroke=&quot;%23D6B25E&quot; stroke-width=&quot;6&quot; opacity=&quot;0.55&quot; fill=&quot;none&quot;> <path d=&quot;M450 430 L450 140&quot;/> <path d=&quot;M390 430 L450 140 L510 430&quot;/> <path d=&quot;M410 300 L490 300&quot;/> <path d=&quot;M420 230 L480 230&quot;/> </g> <text x=&quot;42&quot; y=&quot;92&quot; font-family=&quot;Georgia&quot; font-size=&quot;44&quot; fill=&quot;%23F2D58A&quot; opacity=&quot;0.9&quot;>Paris 1889</text> <text x=&quot;42&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;%23FFFFFF&quot; opacity=&quot;0.7&quot;>Belle Époque • Exposition Universelle</text> </svg>')
+            "></div>
+            <div class="card-body">
+              <h3 class="card-title">Paris 1889</h3>
+              <p class="card-desc">Belle Époque, Tour Eiffel, Exposition Universelle — le Paris incandescent.</p>
+              <div class="pill"><span aria-hidden="true">⟡</span> Culture & élégance</div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card" role="listitem" data-destination="cretace">
+            <div class="thumb" style="background-image:
+              linear-gradient(120deg, rgba(214,178,94,0.08), rgba(126,205,255,0.06)),
+              url('data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> <svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;900&quot; height=&quot;520&quot;> <defs> <linearGradient id=&quot;g&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;> <stop offset=&quot;0&quot; stop-color=&quot;%23070A10&quot;/> <stop offset=&quot;1&quot; stop-color=&quot;%230F1A12&quot;/> </linearGradient> </defs> <rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23g)&quot;/> <g opacity=&quot;0.55&quot;> <circle cx=&quot;720&quot; cy=&quot;170&quot; r=&quot;140&quot; fill=&quot;%237ECDFF&quot; opacity=&quot;0.12&quot;/> <circle cx=&quot;220&quot; cy=&quot;360&quot; r=&quot;180&quot; fill=&quot;%23D6B25E&quot; opacity=&quot;0.10&quot;/> </g> <g fill=&quot;%23D6B25E&quot; opacity=&quot;0.55&quot;> <path d=&quot;M250 360 C300 290 400 290 470 340 C530 385 610 370 660 330 C640 420 560 460 470 450 C360 440 300 430 250 360 Z&quot;/> <circle cx=&quot;520&quot; cy=&quot;338&quot; r=&quot;8&quot; fill=&quot;%23FFFFFF&quot; opacity=&quot;0.7&quot;/> </g> <text x=&quot;42&quot; y=&quot;92&quot; font-family=&quot;Georgia&quot; font-size=&quot;44&quot; fill=&quot;%23F2D58A&quot; opacity=&quot;0.9&quot;>Crétacé</text> <text x=&quot;42&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;%23FFFFFF&quot; opacity=&quot;0.7&quot;>-65 millions d’années • Nature sauvage</text> </svg>')
+            "></div>
+            <div class="card-body">
+              <h3 class="card-title">Crétacé (-65M)</h3>
+              <p class="card-desc">Dinosaures, jungle, monde brut — l’aventure la plus rare (et encadrée).</p>
+              <div class="pill"><span aria-hidden="true">⟡</span> Aventure & adrénaline</div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card" role="listitem" data-destination="florence1504">
+            <div class="thumb" style="background-image:
+              linear-gradient(120deg, rgba(214,178,94,0.10), rgba(126,205,255,0.06)),
+              url('data:image/svg+xml;utf8,<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> <svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;900&quot; height=&quot;520&quot;> <defs> <linearGradient id=&quot;g&quot; x1=&quot;0&quot; y1=&quot;0&quot; x2=&quot;1&quot; y2=&quot;1&quot;> <stop offset=&quot;0&quot; stop-color=&quot;%23070A10&quot;/> <stop offset=&quot;1&quot; stop-color=&quot;%23131A2A&quot;/> </linearGradient> </defs> <rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;url(%23g)&quot;/> <g opacity=&quot;0.6&quot;> <circle cx=&quot;760&quot; cy=&quot;150&quot; r=&quot;120&quot; fill=&quot;%23D6B25E&quot; opacity=&quot;0.14&quot;/> <circle cx=&quot;220&quot; cy=&quot;360&quot; r=&quot;170&quot; fill=&quot;%237ECDFF&quot; opacity=&quot;0.10&quot;/> </g> <g stroke=&quot;%23D6B25E&quot; stroke-width=&quot;6&quot; opacity=&quot;0.55&quot; fill=&quot;none&quot;> <path d=&quot;M280 420 L280 270 L420 210 L560 270 L560 420&quot;/> <path d=&quot;M320 420 L320 300 L520 300 L520 420&quot;/> <path d=&quot;M420 210 L420 160&quot;/> </g> <text x=&quot;42&quot; y=&quot;92&quot; font-family=&quot;Georgia&quot; font-size=&quot;44&quot; fill=&quot;%23F2D58A&quot; opacity=&quot;0.9&quot;>Florence 1504</text> <text x=&quot;42&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;%23FFFFFF&quot; opacity=&quot;0.7&quot;>Renaissance • Michel-Ange • Art</text> </svg>')
+            "></div>
+            <div class="card-body">
+              <h3 class="card-title">Florence 1504</h3>
+              <p class="card-desc">Renaissance italienne, ateliers, art et architecture — immersion raffinée.</p>
+              <div class="pill"><span aria-hidden="true">⟡</span> Art & patrimoine</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESERVATION ===== -->
+    <section id="reservation">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <h2 class="h2">Réserver (simulation)</h2>
+            <p class="p">Formulaire simple : validation fictive en JavaScript (parfait pour une V0).</p>
+          </div>
+          <span class="tag">Optionnel • Rapide</span>
+        </div>
+
+        <div class="form-wrap">
+          <form class="glass form-card" id="bookingForm">
+            <div class="field">
+              <label for="destSelect">Destination</label>
+              <select id="destSelect" required>
+                <option value="" disabled selected>Choisir une époque…</option>
+                <option value="paris1889">Paris 1889 — Belle Époque</option>
+                <option value="cretace">Crétacé — (-65M)</option>
+                <option value="florence1504">Florence 1504 — Renaissance</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="startDate">Date de départ</label>
+              <input id="startDate" type="date" required />
+            </div>
+
+            <div class="field">
+              <label for="endDate">Date de retour</label>
+              <input id="endDate" type="date" required />
+            </div>
+
+            <div class="field">
+              <label for="notes">Préférence (optionnel)</label>
+              <input id="notes" type="text" placeholder="culture, aventure, art…" />
+            </div>
+
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+              <button class="btn btn-gold" type="submit">Valider la demande</button>
+              <button class="btn" type="button" id="btnSuggestChat">Demander conseil à l’agent</button>
+            </div>
+
+            <p class="fineprint">
+              Simulation : aucune donnée n’est envoyée. Tu pourras brancher ton backend plus tard.
+            </p>
+          </form>
+
+          <div class="glass form-card">
+            <h3 class="card-title">Conseils rapides</h3>
+            <p class="card-desc">
+              Pour une démo qui claque : sélectionne une destination, clique une carte, puis ouvre le chatbot.
+              Il répond en fonction de l’époque choisie.
+            </p>
+            <ul class="bullet">
+              <li>Paris 1889 : parfait “culture & élégance”</li>
+              <li>Florence 1504 : art, architecture, ateliers</li>
+              <li>Crétacé : aventure (sécurité renforcée)</li>
+            </ul>
+            <p class="note">Astuce : le chatbot comprend “prix”, “budget”, “durée”, “sécurité”, “culture”, “aventure”, “art”.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal" id="destModal" aria-hidden="true" aria-label="Détails destination">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <div class="modal-grid">
+        <div class="modal-img" id="modalImg"></div>
+
+        <div class="modal-content">
+          <div class="modal-top">
+            <div>
+              <h3 class="modal-title" id="modalTitle">Destination</h3>
+              <p class="modal-sub" id="modalSub">Description</p>
+            </div>
+            <button class="close" id="modalClose" aria-label="Fermer">✕</button>
+          </div>
+
+          <div class="facts" id="modalFacts"></div>
+
+          <div class="modal-actions">
+            <button class="btn btn-gold" id="modalBook">Pré-remplir la réservation</button>
+            <button class="btn" id="modalChat">Parler à l’agent</button>
+          </div>
+
+          <p class="note" style="margin-top:12px;">
+            Conseil : cliquez “Parler à l’agent” — il s’adapte automatiquement à la destination.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CHATBOT ===== -->
+  <button class="chat-fab" id="chatFab" aria-label="Ouvrir le chat">
+    <span aria-hidden="true">💬</span>
+  </button>
+
+  <div class="chat-panel" id="chatPanel" aria-label="Chatbot TimeTravel Agency">
+    <div class="chat-head">
+      <div>
+        <b>Agent Virtuel</b>
+        <small id="chatContext">TimeTravel Agency — concierge historique</small>
+      </div>
+      <button class="chat-close" id="chatClose" aria-label="Fermer">✕</button>
+    </div>
+
+    <div class="chat-body" id="chatBody" role="log" aria-live="polite"></div>
+
+    <div class="chat-foot">
+      <input class="chat-input" id="chatInput" type="text" placeholder="Posez-moi vos questions sur les voyages temporels…" />
+      <button class="send" id="chatSend" aria-label="Envoyer">➤</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
