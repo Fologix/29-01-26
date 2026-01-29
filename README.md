@@ -1,6 +1,7 @@
 # TimeTravel Agency — Webapp Interactive
 
 Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destinations (Paris 1889, Crétacé -65M, Florence 1504) avec fonctionnalités IA (chatbot + recommandation).
+http://digiticar.fr/
 
 ## Membres du groupe
 - VERRIEZ Yassine
@@ -41,7 +42,6 @@ Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destina
 ### Chatbot (system prompt)
 Chronos = concierge luxe, connaît uniquement Paris 1889 / Crétacé -65M / Florence 1504, propose prix cohérents, conseils pratiques.
 
-http://digiticar.fr/
 
 ## Installation (si applicable)
 ```bash
