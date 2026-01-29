@@ -1,13 +1,20 @@
 # TimeTravel Agency — Webapp Interactive
 
+<<<<<<< HEAD
 Webapp **one-page** (statique) pour une agence fictive de voyage temporel premium, avec **3 destinations** et un **agent conversationnel** intégré.
+=======
+Webapp fictive pour une agence de voyage temporel de luxe, présentant 3 destinations (Paris 1889, Crétacé -65M, Florence 1504) avec fonctionnalités IA (chatbot + recommandation).
+http://digiticar.fr/
+>>>>>>> 9b3adbcfa47b0380a54844b9b93636b8611766d0
 
 ## Membres du groupe
-- VERRIEZ Yassine
-- VIANEZ Titouan
-- GOTTI Florent
-- MACIPE Pablo
-- CHAPOTON André
+- Yassine V.
+- Titouan V.
+- Florent G.
+- Pablo M.
+- André C.
+- Antoine V.
+- Julian B. 
 
 ## Liens (à compléter)
 - Démo en ligne : http://digiticar.fr/
@@ -40,6 +47,7 @@ Webapp **one-page** (statique) pour une agence fictive de voyage temporel premiu
 
 ---
 
+<<<<<<< HEAD
 ## Structure du projet
 ├── index.html # Structure de la page (sections, modal, chat, toast)
 ├── style.css # Thème dark premium + gold, layout, components (cards/modal/chat)
@@ -52,6 +60,10 @@ Webapp **one-page** (statique) pour une agence fictive de voyage temporel premiu
 Ouvrir `index.html` dans un navigateur.
 
 ### Option 2 — Serveur local (recommandé)
+=======
+
+## Installation (si applicable)
+>>>>>>> 9b3adbcfa47b0380a54844b9b93636b8611766d0
 ```bash
 # Python
 python -m http.server 5173
